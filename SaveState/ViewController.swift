@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         return button
     }()
     
-    // MARK: - Propertis
+    // MARK: - Properties
     fileprivate let cellId = "cellId"
     fileprivate var datasource = [TVShowModel]()
     

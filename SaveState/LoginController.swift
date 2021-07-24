@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import KeychainSwift
 
 class LoginController: UIViewController {
     
@@ -64,10 +65,15 @@ class LoginController: UIViewController {
         
         if !alreadyRegistered {
             
+            KeychainSwift().clear()
+            
             var dict = [String:Any]()
             dict.updateValue(false, forKey: "loggedIn")
+            dict.updateValue(false, forKey: "alreadyRegistered")
             
             UserDefaults.standard.register(defaults: dict)
+            
+            UserDefaults.standard.set(true, forKey: "alreadyRegistered")
         }
     }
     
