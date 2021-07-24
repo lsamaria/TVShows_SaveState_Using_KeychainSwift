@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3850F5CE26ABF1AB003E5B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850F5CD26ABF1AB003E5B4F /* AppDelegate.swift */; };
-		3850F5D026ABF1AB003E5B4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850F5CF26ABF1AB003E5B4F /* SceneDelegate.swift */; };
 		3850F5D226ABF1AB003E5B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850F5D126ABF1AB003E5B4F /* ViewController.swift */; };
 		3850F5D526ABF1AB003E5B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850F5D326ABF1AB003E5B4F /* Main.storyboard */; };
 		3850F5D726ABF1AE003E5B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3850F5D626ABF1AE003E5B4F /* Assets.xcassets */; };
 		3850F5DA26ABF1AE003E5B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3850F5D826ABF1AE003E5B4F /* LaunchScreen.storyboard */; };
 		3850F5E526ABF1AF003E5B4F /* SaveStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850F5E426ABF1AF003E5B4F /* SaveStateTests.swift */; };
 		3850F5F026ABF1AF003E5B4F /* SaveStateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850F5EF26ABF1AF003E5B4F /* SaveStateUITests.swift */; };
+		3850F60426ABF1E5003E5B4F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850F60326ABF1E5003E5B4F /* LoginController.swift */; };
+		3850F60926ABF6EC003E5B4F /* TVShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850F60826ABF6EC003E5B4F /* TVShowCell.swift */; };
+		3850F61126ABFB44003E5B4F /* TVShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850F61026ABFB44003E5B4F /* TVShowModel.swift */; };
+		7384EB88523B6384D72CA4ED /* Pods_SaveState.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27B4C4E491E3E33C4D40E81 /* Pods_SaveState.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		3850F5CA26ABF1AB003E5B4F /* SaveState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3850F5CD26ABF1AB003E5B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3850F5CF26ABF1AB003E5B4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3850F5D126ABF1AB003E5B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3850F5D426ABF1AB003E5B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3850F5D626ABF1AE003E5B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		3850F5EB26ABF1AF003E5B4F /* SaveStateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveStateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3850F5EF26ABF1AF003E5B4F /* SaveStateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveStateUITests.swift; sourceTree = "<group>"; };
 		3850F5F126ABF1AF003E5B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3850F60326ABF1E5003E5B4F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		3850F60826ABF6EC003E5B4F /* TVShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowCell.swift; sourceTree = "<group>"; };
+		3850F61026ABFB44003E5B4F /* TVShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowModel.swift; sourceTree = "<group>"; };
+		A5B013091EF568F4C318F9E3 /* Pods-SaveState.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveState.debug.xcconfig"; path = "Target Support Files/Pods-SaveState/Pods-SaveState.debug.xcconfig"; sourceTree = "<group>"; };
+		B27B4C4E491E3E33C4D40E81 /* Pods_SaveState.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaveState.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE310C013B3322888A8E183 /* Pods-SaveState.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveState.release.xcconfig"; path = "Target Support Files/Pods-SaveState/Pods-SaveState.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7384EB88523B6384D72CA4ED /* Pods_SaveState.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26EB078DBD2F41F6EACF9433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5B013091EF568F4C318F9E3 /* Pods-SaveState.debug.xcconfig */,
+				EAE310C013B3322888A8E183 /* Pods-SaveState.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3850F5C126ABF1AB003E5B4F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +102,8 @@
 				3850F5E326ABF1AF003E5B4F /* SaveStateTests */,
 				3850F5EE26ABF1AF003E5B4F /* SaveStateUITests */,
 				3850F5CB26ABF1AB003E5B4F /* Products */,
+				26EB078DBD2F41F6EACF9433 /* Pods */,
+				7724664CBCDEC3FE05E78EBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				3850F5CD26ABF1AB003E5B4F /* AppDelegate.swift */,
-				3850F5CF26ABF1AB003E5B4F /* SceneDelegate.swift */,
+				3850F60326ABF1E5003E5B4F /* LoginController.swift */,
 				3850F5D126ABF1AB003E5B4F /* ViewController.swift */,
+				3850F60826ABF6EC003E5B4F /* TVShowCell.swift */,
+				3850F61026ABFB44003E5B4F /* TVShowModel.swift */,
 				3850F5D326ABF1AB003E5B4F /* Main.storyboard */,
 				3850F5D626ABF1AE003E5B4F /* Assets.xcassets */,
 				3850F5D826ABF1AE003E5B4F /* LaunchScreen.storyboard */,
@@ -128,6 +151,14 @@
 			path = SaveStateUITests;
 			sourceTree = "<group>";
 		};
+		7724664CBCDEC3FE05E78EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B27B4C4E491E3E33C4D40E81 /* Pods_SaveState.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3850F5F426ABF1AF003E5B4F /* Build configuration list for PBXNativeTarget "SaveState" */;
 			buildPhases = (
+				8E67615E619FB0F75021F125 /* [CP] Check Pods Manifest.lock */,
 				3850F5C626ABF1AB003E5B4F /* Sources */,
 				3850F5C726ABF1AB003E5B4F /* Frameworks */,
 				3850F5C826ABF1AB003E5B4F /* Resources */,
+				23ADA10317249347CE94575B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +286,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23ADA10317249347CE94575B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaveState/Pods-SaveState-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaveState/Pods-SaveState-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaveState/Pods-SaveState-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E67615E619FB0F75021F125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaveState-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3850F5C626ABF1AB003E5B4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3850F5D226ABF1AB003E5B4F /* ViewController.swift in Sources */,
+				3850F60426ABF1E5003E5B4F /* LoginController.swift in Sources */,
 				3850F5CE26ABF1AB003E5B4F /* AppDelegate.swift in Sources */,
-				3850F5D026ABF1AB003E5B4F /* SceneDelegate.swift in Sources */,
+				3850F60926ABF6EC003E5B4F /* TVShowCell.swift in Sources */,
+				3850F61126ABFB44003E5B4F /* TVShowModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +510,14 @@
 		};
 		3850F5F526ABF1AF003E5B4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B013091EF568F4C318F9E3 /* Pods-SaveState.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UY59KY6F7K;
 				INFOPLIST_FILE = SaveState/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,18 +525,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flowtinc.SaveState;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3850F5F626ABF1AF003E5B4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE310C013B3322888A8E183 /* Pods-SaveState.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UY59KY6F7K;
 				INFOPLIST_FILE = SaveState/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +546,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flowtinc.SaveState;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
