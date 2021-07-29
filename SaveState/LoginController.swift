@@ -81,10 +81,11 @@ class LoginController: UIViewController {
     fileprivate func configureAnchors() {
         
         view.addSubview(loginButton)
+        
+        // loginButton
         loginButton.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         loginButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
         loginButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
         loginButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
     }
-    
 }
